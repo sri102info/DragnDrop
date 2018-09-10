@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Suite" verbose = "10">
+<parameter name="appURL" value="http://quickfuseapps.com/"/>
+<parameter name="browserType" value="chrome"/>
+<parameter name="pageName" value="Test"/>
+<parameter name="smsName" value="Send an SMS"/>
+<parameter name="emailName" value="Send an Email"/>
+<parameter name="exitName" value="Hang Up or Exit"/>
+<parameter name="count" value="6"/>
+<parameter name="phoneNumber" value="2131243253435"/>
+<parameter name="phoneMessage" value="Hello World"/>
+<parameter name="smtp" value="smtp.gmail.com"/>
+<parameter name="port" value="465"/>
+<parameter name="ssl" value="on"/>
+<parameter name="username" value="abc@gmail.com"/>
+<parameter name="password" value="qwerty"/>
+<parameter name="from" value="abc@gmail.com"/>
+<parameter name="to" value="xyz@gmail.com"/>
+<parameter name="subject" value="SMS not sent"/>
+<parameter name="cc" value="def@gmail.com"/>
+<parameter name="emailMessage" value="SMS to phone number 2131243253435 not sent"/>
+
+<test name = "Test">
+	<classes>
+		<class name = "MyAssignment.MyAssignment.PlivoTest"/>
+		<class name = "MyAssignment.MyAssignment.DisplayReport"/>
+	</classes>
+</test>
+</suite>

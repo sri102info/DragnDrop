@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Suite]">
+  <parameter name="cc" value="def@gmail.com"/>
+  <parameter name="smsName" value="Send an SMS"/>
+  <parameter name="phoneMessage" value="Hello World"/>
+  <parameter name="smtp" value="smtp.gmail.com"/>
+  <parameter name="subject" value="SMS not sent"/>
+  <parameter name="emailName" value="Send an Email"/>
+  <parameter name="count" value="6"/>
+  <parameter name="appURL" value="http://quickfuseapps.com/"/>
+  <parameter name="pageName" value="Test"/>
+  <parameter name="ssl" value="on"/>
+  <parameter name="browserType" value="chrome"/>
+  <parameter name="password" value="qwerty"/>
+  <parameter name="phoneNumber" value="2131243253435"/>
+  <parameter name="port" value="465"/>
+  <parameter name="emailMessage" value="SMS to phone number 2131243253435 not sent"/>
+  <parameter name="from" value="abc@gmail.com"/>
+  <parameter name="to" value="xyz@gmail.com"/>
+  <parameter name="exitName" value="Hang Up or Exit"/>
+  <parameter name="username" value="abc@gmail.com"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="MyAssignment.MyAssignment.DisplayReport">
+        <methods>
+          <include name="displayIndexHtml"/>
+          <include name="initializeTestSetupBase"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- MyAssignment.MyAssignment.DisplayReport -->
+      <class name="MyAssignment.MyAssignment.PlivoTest">
+        <methods>
+          <include name="fillTestData"/>
+          <include name="initializeTestSetupBase"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addModules" invocation-numbers="0"/>
+          <include name="checkConnections"/>
+          <include name="verifyAddedValues"/>
+        </methods>
+      </class> <!-- MyAssignment.MyAssignment.PlivoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

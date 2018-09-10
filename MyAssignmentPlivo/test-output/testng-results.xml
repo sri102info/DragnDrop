@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53721" started-at="2018-09-10T11:24:46Z" finished-at="2018-09-10T11:25:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53721" started-at="2018-09-10T11:24:46Z" finished-at="2018-09-10T11:25:40Z">
+      <class name="MyAssignment.MyAssignment.DisplayReport">
+        <test-method status="PASS" signature="initializeTestSetupBase(java.lang.String, java.lang.String)[pri:0, instance:MyAssignment.MyAssignment.DisplayReport@4c70fda8]" name="initializeTestSetupBase" is-config="true" duration-ms="12489" started-at="2018-09-10T16:55:25Z" finished-at="2018-09-10T16:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://quickfuseapps.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestSetupBase -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyAssignment.MyAssignment.DisplayReport@4c70fda8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-10T16:55:37Z" finished-at="2018-09-10T16:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="displayIndexHtml()[pri:0, instance:MyAssignment.MyAssignment.DisplayReport@4c70fda8]" name="displayIndexHtml" duration-ms="2292" started-at="2018-09-10T16:55:37Z" finished-at="2018-09-10T16:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayIndexHtml -->
+      </class> <!-- MyAssignment.MyAssignment.DisplayReport -->
+      <class name="MyAssignment.MyAssignment.PlivoTest">
+        <test-method status="PASS" signature="initializeTestSetupBase(java.lang.String, java.lang.String)[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="initializeTestSetupBase" is-config="true" duration-ms="11952" started-at="2018-09-10T16:54:46Z" finished-at="2018-09-10T16:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://quickfuseapps.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestSetupBase -->
+        <test-method status="PASS" signature="fillTestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="fillTestData" is-config="true" duration-ms="0" started-at="2018-09-10T16:54:58Z" finished-at="2018-09-10T16:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2131243253435]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello World]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[smtp.gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[465]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[SMS not sent]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SMS to phone number 2131243253435 not sent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTestData -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="setUp" is-config="true" duration-ms="17" started-at="2018-09-10T16:54:58Z" finished-at="2018-09-10T16:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="createApp" duration-ms="8941" started-at="2018-09-10T16:54:58Z" finished-at="2018-09-10T16:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Send an SMS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Send an Email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hang Up or Exit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createApp -->
+        <test-method status="PASS" signature="addModules(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="addModules" duration-ms="15992" started-at="2018-09-10T16:55:07Z" finished-at="2018-09-10T16:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Send an SMS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Send an Email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hang Up or Exit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addModules -->
+        <test-method status="PASS" signature="checkConnections()[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="checkConnections" duration-ms="184" started-at="2018-09-10T16:55:23Z" finished-at="2018-09-10T16:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnections -->
+        <test-method status="PASS" signature="verifyAddedValues()[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="verifyAddedValues" duration-ms="315" started-at="2018-09-10T16:55:23Z" finished-at="2018-09-10T16:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedValues -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyAssignment.MyAssignment.PlivoTest@59f99ea]" name="tearDown" is-config="true" duration-ms="1510" started-at="2018-09-10T16:55:23Z" finished-at="2018-09-10T16:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyAssignment.MyAssignment.PlivoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
