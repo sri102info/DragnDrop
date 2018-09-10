@@ -17,3 +17,7 @@ Steps:
 6.Now open the project Plivo->testng.xml
 
 7.Right-Click the testng.xml file->Run As->TestNG Suite.
+
+Note:
+
+Please see the Demo video (PlivoAssignementDemo.swf)
