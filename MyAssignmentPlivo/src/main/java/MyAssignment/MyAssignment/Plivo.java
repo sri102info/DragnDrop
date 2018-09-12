@@ -176,12 +176,34 @@ public class Plivo extends PageObjectUtilities {
 			phoneNumber.click();
 			phoneNumber.clear();
 			phoneNumber.sendKeys(phoneNumberVal, Keys.TAB);
+			if(!phoneNumber.getAttribute("value").equals(phoneNumberVal)) {
+				phoneNumber.clear();
+				reEnterData(phoneNumber, phoneNumberVal);
+			}
 		}
 		if (phoneMessage.isEnabled() && phoneMessage.isDisplayed()) {
 			phoneMessage.click();
 			phoneMessage.clear();
 			phoneMessage.sendKeys(phoneMessageVal, Keys.TAB);
+			if(!phoneMessage.getAttribute("value").equals(phoneMessageVal)) {
+				phoneMessage.clear();
+				reEnterData(phoneMessage, phoneMessageVal);
+			}
 		}
+	}
+
+	/**
+	 * Method to re-enter values inside component if endKeys ddin't enter properly
+	 * 
+	 * @param webElement WebElement, where the value to be added
+	 * @param  value Values to be added
+	 *
+	 */
+	private void reEnterData(WebElement webElement, String value) {
+		for(int i = 0; i < value.length(); i++){
+			String val = Character.toString(value.charAt(i));
+			webElement.sendKeys(val);
+		    }
 	}
 
 	/**
@@ -302,41 +324,77 @@ public class Plivo extends PageObjectUtilities {
 		if (smtp.isDisplayed() && smtp.isEnabled()) {
 			smtp.clear();
 			smtp.sendKeys(smtpVal);
+			if(!smtp.getAttribute("value").equals(smtpVal)) {
+				smtp.clear();
+				reEnterData(smtp, smtpVal);
+			}
 		}
 		if (!ssl.isSelected())
 			ssl.click();
 		if (port.isDisplayed() && port.isEnabled()) {
 			port.clear();
 			port.sendKeys(portVal);
+			if(!port.getAttribute("value").equals(portVal)) {
+				port.clear();
+				reEnterData(port, portVal);
+			}
 		}
 		if (username.isDisplayed() && username.isEnabled()) {
 			username.clear();
 			username.sendKeys(usernameVal);
+			if(!username.getAttribute("value").equals(usernameVal)) {
+				username.clear();
+				reEnterData(username, usernameVal);
+			}
 		}
 		if (password.isDisplayed() && password.isEnabled()) {
 			password.clear();
 			password.sendKeys(passwordVal);
+			if(!password.getAttribute("value").equals(passwordVal)) {
+				password.clear();
+				reEnterData(password, passwordVal);
+			}
 		}
 		if (from.isDisplayed() && from.isEnabled()) {
 			from.clear();
 			from.sendKeys(fromVal);
+			if(!from.getAttribute("value").equals(fromVal)) {
+				from.clear();
+				reEnterData(from, fromVal);
+			}
 		}
 		if (to.isDisplayed() && to.isEnabled()) {
 			to.clear();
 			to.sendKeys(toVal);
+			if(!to.getAttribute("value").equals(toVal)) {
+				to.clear();
+				reEnterData(to, toVal);
+			}
 		}
 		if (subject.isDisplayed() && subject.isEnabled()) {
 			subject.clear();
 			subject.sendKeys(subjectVal);
+			if(!subject.getAttribute("value").equals(subjectVal)) {
+				subject.clear();
+				reEnterData(subject, subjectVal);
+			}
 		}
 		if (cc.isDisplayed() && cc.isEnabled()) {
 			cc.clear();
 			cc.sendKeys(ccVal);
+			if(!cc.getAttribute("value").equals(ccVal)) {
+				cc.clear();
+				reEnterData(cc, ccVal);
+			}
 		}
 		if (emailMessage.isDisplayed() && emailMessage.isEnabled()) {
 			emailMessage.click();
 			emailMessage.clear();
 			emailMessage.sendKeys(emailMessageVal);
+			if(!emailMessage.getAttribute("value").equals(emailMessageVal)) {
+				emailMessage.clear();
+				reEnterData(emailMessage, emailMessageVal);
+			}
 		}
 	}
 
