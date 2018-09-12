@@ -26,5 +26,8 @@ public class DisplayReport extends TestSetupBase {
 		driver.get(fname);
 		WebElement showLink = driver.findElement(By.partialLinkText("show"));
 		showLink.click();
+		driver.get(fname);
+		showLink = driver.findElement(By.partialLinkText("show"));
+		showLink.click();
 	}
 }
