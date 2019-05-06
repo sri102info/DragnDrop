@@ -23,4 +23,3 @@ Note:
 Please see the Demo video (PlivoAssignementDemo.swf)
 
 
-https://iras.essclientservices.com/default.aspx?content=cli_40494_CGOHome&sp=cli_40494_arsp&version=2&style=CGO&clientid=40494&id=87D0686F-0D9A-4236-B1BB-C03E2DD4B0D4
